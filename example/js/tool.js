@@ -1,8 +1,8 @@
-class Foo {
+class Tool {
     // @olaf-mix
-    static sayHi(){
+    static makeTime(){
         console.log('just a test');
     }
 }
 
-export default Foo;
+export default Tool;
