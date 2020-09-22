@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
     "target": "es5",
-    "sourceMap": true,
     "lib": [
-      "es2017",
-      "dom",
-      "scripthost"
+      "DOM",
+      "ES6",
+      "WebWorker"
     ]
   },
   "exclude": [
     "node_modules"
+  ],
+  "include": [
+    "../example/ts/**/*"
   ]
 }

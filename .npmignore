@@ -2,4 +2,5 @@
 # DynamoDB Local files
 .dynamodb/
 .idea
-test/
+test/*output.*
+example/**/*.output.js
